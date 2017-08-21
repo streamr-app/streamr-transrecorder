@@ -1,0 +1,25 @@
+{
+  "name": "streamr-transcoder-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "babel-node src/index.js",
+    "dist": "babel src --out-dir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.100.0",
+    "binaryjs": "^0.2.1",
+    "express": "^4.15.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "wav": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
